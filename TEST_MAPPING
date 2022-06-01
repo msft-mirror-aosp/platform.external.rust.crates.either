@@ -17,12 +17,35 @@
       "path": "external/rust/crates/unicode-xid"
     }
   ],
+  "postsubmit": [
+    {
+      "name": "apkdmverity.test"
+    },
+    {
+      "name": "either_test_src_lib"
+    },
+    {
+      "name": "keystore2_legacy_blobs_test"
+    },
+    {
+      "name": "keystore2_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "microdroid_manager_test"
+    }
+  ],
   "presubmit": [
     {
       "name": "apkdmverity.test"
     },
     {
       "name": "either_test_src_lib"
+    },
+    {
+      "name": "keystore2_legacy_blobs_test"
     },
     {
       "name": "keystore2_test"
@@ -40,6 +63,9 @@
     },
     {
       "name": "either_test_src_lib"
+    },
+    {
+      "name": "keystore2_legacy_blobs_test"
     },
     {
       "name": "keystore2_test"
