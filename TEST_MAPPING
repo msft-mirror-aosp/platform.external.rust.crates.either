@@ -25,6 +25,9 @@
       "name": "either_test_src_lib"
     },
     {
+      "name": "keystore2_legacy_blobs_test"
+    },
+    {
       "name": "keystore2_test"
     },
     {
@@ -40,6 +43,9 @@
     },
     {
       "name": "either_test_src_lib"
+    },
+    {
+      "name": "keystore2_legacy_blobs_test"
     },
     {
       "name": "keystore2_test"
